@@ -1,0 +1,764 @@
+CRITICAL - 2023-05-13 07:18:44 --> Class "App\Controllers\Email" not found
+in APPPATH/Controllers/Register.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->register()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:44:45 --> Undefined property: App\Controllers\Register::$db
+in APPPATH/Controllers/Register.php on line 89.
+ 1 APPPATH/Controllers/Register.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:50:16 --> Call to undefined method App\Models\User_model::updateVerify
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Register.php(95): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:50:23 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(95): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:50:34 --> Undefined property: stdClass::$id
+in APPPATH/Controllers/Register.php on line 95.
+ 1 APPPATH/Controllers/Register.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:50:39 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(95): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:51:30 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Register.php on line 93.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:51:43 --> printf(): Argument #1 ($format) must be of type string, stdClass given
+in APPPATH/Controllers/Register.php on line 93.
+ 1 APPPATH/Controllers/Register.php(93): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(97): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:43 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:44 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:49 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:50 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:50 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:54:51 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:56:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(99): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 08:58:46 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:02:22 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:02:45 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:03:15 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(112): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:03:44 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:03:44 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:03:45 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:13 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:13 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:14 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:14 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:15 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:15 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:16 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:18 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:05:19 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:05 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:06 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:07 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:09 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:09 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:16 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:06:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:07:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 09:08:02 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(111): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Register.php(98): App\Models\User_model->updateVerify()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Register->verify()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:00:50 --> Undefined variable $photoName
+in APPPATH/Controllers/Profile.php on line 47.
+ 1 APPPATH/Controllers/Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:38:18 --> Undefined constant "App\Controllers\model"
+in APPPATH/Controllers/Login.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:39:48 --> Undefined constant "App\Controllers\model"
+in APPPATH/Controllers/Login.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:43:21 --> Invalid file: "login/forget.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Login.php(98): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 13:56:03 --> Call to undefined method App\Models\User_model::checkAnswerExist
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/Login.php(91): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:04:00 --> printf(): Argument #1 ($format) must be of type string, stdClass given
+in APPPATH/Controllers/Login.php on line 92.
+ 1 APPPATH/Controllers/Login.php(92): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:04:17 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Login.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:05:35 --> Attempt to read property "answer" on null
+in APPPATH/Models/User_model.php on line 147.
+ 1 APPPATH/Models/User_model.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(91): App\Models\User_model->checkAnswerExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:05:52 --> Attempt to read property "answer" on null
+in APPPATH/Models/User_model.php on line 147.
+ 1 APPPATH/Models/User_model.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(91): App\Models\User_model->checkAnswerExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:07:13 --> Attempt to read property "answer" on null
+in APPPATH/Models/User_model.php on line 147.
+ 1 APPPATH/Models/User_model.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Login.php(91): App\Models\User_model->checkAnswerExist()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->checkUser()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:24:45 --> Undefined variable $data
+in APPPATH/Controllers/Forget.php on line 10.
+ 1 APPPATH/Controllers/Forget.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:24:45 --> Undefined variable $data
+in APPPATH/Controllers/Forget.php on line 10.
+ 1 APPPATH/Controllers/Forget.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:24:47 --> Undefined variable $data
+in APPPATH/Controllers/Forget.php on line 10.
+ 1 APPPATH/Controllers/Forget.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:24:50 --> Undefined variable $data
+in APPPATH/Controllers/Forget.php on line 10.
+ 1 APPPATH/Controllers/Forget.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:25:04 --> Undefined variable $data
+in APPPATH/Controllers/Forget.php on line 10.
+ 1 APPPATH/Controllers/Forget.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:25:19 --> Undefined variable $error
+in APPPATH/Views/forget_question.php on line 14.
+ 1 APPPATH/Views/forget_question.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/forget_question.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forget.php(10): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 14:25:48 --> Undefined variable $resultName
+in APPPATH/Models/User_model.php on line 161.
+ 1 APPPATH/Models/User_model.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Forget.php(20): App\Models\User_model->checkAnswer()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->forget()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:12:57 --> Undefined variable $reset
+in APPPATH/Views/login.php on line 9.
+ 1 APPPATH/Views/login.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:12:59 --> Undefined variable $reset
+in APPPATH/Views/login.php on line 9.
+ 1 APPPATH/Views/login.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:13:00 --> Undefined variable $reset
+in APPPATH/Views/login.php on line 9.
+ 1 APPPATH/Views/login.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:13:59 --> Undefined variable $error
+in APPPATH/Views/login.php on line 21.
+ 1 APPPATH/Views/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forget.php(50): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:15:09 --> Undefined variable $error
+in APPPATH/Views/login.php on line 21.
+ 1 APPPATH/Views/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Forget.php(51): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:15:39 --> Undefined variable $reset
+in APPPATH/Views/login.php on line 9.
+ 1 APPPATH/Views/login.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Login.php(61): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->check_login()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:35:25 --> Undefined variable $userID
+in APPPATH/Models/User_model.php on line 171.
+ 1 APPPATH/Models/User_model.php(171): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Forget.php(47): App\Models\User_model->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:37:11 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Models/User_model.php(171): CodeIgniter\Model->update()
+ 5 APPPATH/Controllers/Forget.php(47): App\Models\User_model->resetPassword()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 15:53:09 --> CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in /var/www/htdocs/project/app/Models/User_model.php on line 171
+in SYSTEMPATH/Model.php on line 708.
+ 1 APPPATH/Models/User_model.php(171): CodeIgniter\Model->insert()
+ 2 APPPATH/Controllers/Forget.php(47): App\Models\User_model->resetPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:02:59 --> Object of class App\Models\User_model could not be converted to string
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:03:13 --> printf(): Argument #1 ($format) must be of type string, App\Models\User_model given
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:03:40 --> printf(): Argument #1 ($format) must be of type string, stdClass given
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:03:50 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:04:28 --> Array to string conversion
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:04:42 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:04:58 --> Array to string conversion
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-13 16:05:17 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH/Controllers/Forget.php on line 48.
+ 1 APPPATH/Controllers/Forget.php(48): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forget->reset()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

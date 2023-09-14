@@ -1,0 +1,461 @@
+CRITICAL - 2023-05-15 03:45:20 --> Class "App\Models\ImageModel" not found
+in APPPATH/Controllers/Image.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Image->upload()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:49:22 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Profile.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:49:46 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Profile.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:51:03 --> Class "App\Controllers\ImageModel" not found
+in APPPATH/Controllers/Profile.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:51:46 --> unable to open image `/var/www/htdocs/project/writable/uploads_photo/1684140706_b97243835d25c7395988.jpg': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/ImageModel.php on line 49.
+ 1 APPPATH/Models/ImageModel.php(49): Imagick->__construct()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:54:34 --> Call to undefined method Imagick::text()
+in APPPATH/Models/ImageModel.php on line 50.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:57:23 --> Call to undefined method Imagick::text()
+in APPPATH/Models/ImageModel.php on line 53.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 08:59:49 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:01:23 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:03:14 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:07:09 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:08:30 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:08:46 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:09:48 --> Call to undefined method Imagick::text()
+in APPPATH/Models/ImageModel.php on line 55.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:13:20 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 49.
+ 1 APPPATH/Controllers/Profile.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:13:36 --> Array to string conversion
+in APPPATH/Controllers/Profile.php on line 47.
+ 1 APPPATH/Controllers/Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:13:48 --> printf(): Argument #1 ($format) must be of type string, array given
+in APPPATH/Controllers/Profile.php on line 47.
+ 1 APPPATH/Controllers/Profile.php(47): printf()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:14:13 --> Undefined array key "text"
+in APPPATH/Views/profile_display.php on line 39.
+ 1 APPPATH/Views/profile_display.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile_display.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ProfileDisplay.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ProfileDisplay->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:14:27 --> Undefined array key "text"
+in APPPATH/Views/profile_display.php on line 39.
+ 1 APPPATH/Views/profile_display.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile_display.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ProfileDisplay.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ProfileDisplay->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:14:28 --> Undefined array key "text"
+in APPPATH/Views/profile_display.php on line 39.
+ 1 APPPATH/Views/profile_display.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile_display.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ProfileDisplay.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ProfileDisplay->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:14:29 --> Undefined array key "text"
+in APPPATH/Views/profile_display.php on line 39.
+ 1 APPPATH/Views/profile_display.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/profile_display.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/ProfileDisplay.php(25): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\ProfileDisplay->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:17:53 --> File not found: "writable/uploads_photo/1684142273_1c6a2a671bfc27a22406.png"
+in SYSTEMPATH/Files/File.php on line 47.
+ 1 SYSTEMPATH/Files/File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct()
+ 3 APPPATH/Models/ImageModel.php(53): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:19:54 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:30:17 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:41:51 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:47:39 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:50:52 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:53:00 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 09:57:23 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(251): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 APPPATH/Models/ImageModel.php(65): CodeIgniter\Images\Handlers\ImageMagickHandler->save()
+ 4 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:00:11 --> The uploaded file has already been moved.
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 133.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH/Controllers/Profile.php(49): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:01:29 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(408): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 SYSTEMPATH/Images/Handlers/BaseHandler.php(418): CodeIgniter\Images\Handlers\ImageMagickHandler->_text()
+ 4 APPPATH/Models/ImageModel.php(54): CodeIgniter\Images\Handlers\BaseHandler->text()
+ 5 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:04:19 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(251): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 APPPATH/Models/ImageModel.php(65): CodeIgniter\Images\Handlers\ImageMagickHandler->save()
+ 4 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:05:03 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:06:21 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:06:24 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:07:23 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(251): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 APPPATH/Models/ImageModel.php(65): CodeIgniter\Images\Handlers\ImageMagickHandler->save()
+ 4 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:11:47 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(251): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 APPPATH/Models/ImageModel.php(65): CodeIgniter\Images\Handlers\ImageMagickHandler->save()
+ 4 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:11:50 --> Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
+in SYSTEMPATH/Images/Handlers/ImageMagickHandler.php on line 212.
+ 1 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(212): CodeIgniter\Images\Exceptions\ImageException::forImageProcessFailed()
+ 2 SYSTEMPATH/Images/Handlers/ImageMagickHandler.php(251): CodeIgniter\Images\Handlers\ImageMagickHandler->process()
+ 3 APPPATH/Models/ImageModel.php(65): CodeIgniter\Images\Handlers\ImageMagickHandler->save()
+ 4 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:13:42 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:13:57 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:14:25 --> Call to undefined method Imagick::save()
+in APPPATH/Models/ImageModel.php on line 65.
+ 1 APPPATH/Controllers/Profile.php(47): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:16:29 --> Call to undefined method Imagick::withFile()
+in APPPATH/Models/ImageModel.php on line 55.
+ 1 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:16:47 --> Call to undefined method Imagick::text()
+in APPPATH/Models/ImageModel.php on line 55.
+ 1 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:23:37 --> Undefined variable $draw
+in APPPATH/Models/ImageModel.php on line 55.
+ 1 APPPATH/Models/ImageModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:24:38 --> Class "App\Models\ImagickDraw" not found
+in APPPATH/Models/ImageModel.php on line 55.
+ 1 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:25:06 --> Undefined variable $image
+in APPPATH/Models/ImageModel.php on line 60.
+ 1 APPPATH/Models/ImageModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:26:00 --> Imagick::annotateImage(): Argument #1 ($settings) must be of type ImagickDraw, Imagick given
+in APPPATH/Models/ImageModel.php on line 68.
+ 1 APPPATH/Models/ImageModel.php(68): Imagick->annotateImage()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:27:34 --> Call to undefined method Imagick::annotation()
+in APPPATH/Models/ImageModel.php on line 56.
+ 1 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:34:22 --> Undefined variable $path
+in APPPATH/Models/ImageModel.php on line 25.
+ 1 APPPATH/Models/ImageModel.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(43): App\Models\ImageModel->resize()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:34:53 --> Call to undefined method Imagick::resize()
+in APPPATH/Models/ImageModel.php on line 26.
+ 1 APPPATH/Controllers/Profile.php(43): App\Models\ImageModel->resize()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:43:46 --> unable to open image `/var/www/htdocs/project/writable/uploads_photo/resize_1684147426_66402b89868f0cfece8a.png': No such file or directory @ error/blob.c/OpenBlob/2874
+in APPPATH/Models/ImageModel.php on line 52.
+ 1 APPPATH/Models/ImageModel.php(52): Imagick->__construct()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:44:08 --> Undefined variable $imagick
+in APPPATH/Models/ImageModel.php on line 61.
+ 1 APPPATH/Models/ImageModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-15 10:46:57 --> Too few arguments to function App\Models\ImageModel::addTextWatermark(), 2 passed in /var/www/htdocs/project/app/Controllers/Profile.php on line 46 and exactly 3 expected
+in APPPATH/Models/ImageModel.php on line 50.
+ 1 APPPATH/Controllers/Profile.php(46): App\Models\ImageModel->addTextWatermark()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Profile->update_profile()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
